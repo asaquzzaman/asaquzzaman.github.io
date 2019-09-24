@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "aglio --theme-full-width --theme-template triple --theme-variables slate -i docs.md -s -p 6040",
     "build": "aglio --theme-full-width --theme-template triple --theme-variables slate -i docs.md -o index.html",
+    "pro": "aglio --theme-full-width --theme-template triple --theme-variables slate -i pro/docs.md -o pro/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
